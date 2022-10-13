@@ -1,0 +1,28 @@
+.anime-1 {
+    width: 30%;
+    transition: all 0.5s linear;
+}
+
+.anime-1:hover {
+    transform: scale(1.15, 1.05)rotate(5deg);
+}
+
+div ul li a {
+    color: black;
+}
+
+div ul li:hover a{
+    color: rgba(20, 150, 230, 0.721);
+}
+
+div ul li:hover .logo {
+    color: rgba(20, 150, 230, 0.721);
+}
+
+.logo {
+    color: black;
+}
+
+.backGround {
+    background: url(../assets/images.jpg) no-repeat center/cover;
+}
